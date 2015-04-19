@@ -24,4 +24,4 @@ notifications:
     on_failure: change
 env:
   - global:
-    - _R_CHECK_FORCE_SUGGESTS_=0
+  - _R_CHECK_FORCE_SUGGESTS_=0

@@ -1,5 +1,14 @@
-*.so
+*.*~
+.*~
+*~
+*.dump
+*.swp
+*~
+.#*
 *.o
-*.dll
-.Rproj.user
 .Rhistory
+.Rproj.user/
+src/devtools.so
+
+ 
+
