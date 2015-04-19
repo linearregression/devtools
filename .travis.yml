@@ -23,5 +23,6 @@ notifications:
     on_success: change
     on_failure: change
 env:
-  - global:
-  - _R_CHECK_FORCE_SUGGESTS_=0
+  global:
+   - _R_CHECK_FORCE_SUGGESTS_=0
+   - CRAN: http://cran.rstudio.com
