@@ -35,7 +35,7 @@ revdep <- function(pkg,
                    recursive = FALSE, ignore = NULL,
                    bioconductor = FALSE) {
   if (missing(pkg)) pkg <- as.package(".")$package
-
+  message("Test with Bioconductor? ", bioconductor)
   all <- if (bioconductor) packages() else cran_packages()
 
   deps <- tools::dependsOnPkgs(pkg, dependencies, recursive, installed = all)
