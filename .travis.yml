@@ -5,7 +5,7 @@ warnings_are_errors: true
 
 env:
  global:
-   - _R_CHECK_FORCE_SUGGESTS_=0
+   - _R_CHECK_FORCE_SUGGESTS_=1
    - CRAN: http://cran.rstudio.com
 
 r_packages:
